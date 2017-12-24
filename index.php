@@ -10,7 +10,7 @@
       <!-- Header -->
       <header class="w3-display-container w3-content w3-wide" style="max-width:1500px" id="home">
         <img class="w3-image" src="https://1.bp.blogspot.com/-ZbY05reBEsk/Wc2K8GSQCkI/AAAAAAABCw0/fs-_yvh2c38W3wEFjRyUHHNFUwYjYAhigCLcBGAs/s1600/13.jpg" alt="ryan" style="width:100%">
-        <div class="w3-display-bottommiddle w3-margin-top w3-center">
+        <div class="w3-display-left w3-margin-top w3-center">
           <h1 class="w3-xxlarge w3-text-black"><span class="w3-padding w3-black w3-opacity-min"><b>Hi, I'm Ryan. I like computers.</b></span></h1>
         </div>
       </header>
