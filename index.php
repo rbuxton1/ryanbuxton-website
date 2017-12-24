@@ -11,9 +11,6 @@
       <header class="w3-container w3-theme w3-padding" id="myHeader">
         <div class="w3-center">
           <h1 class="w3-xxxlarge w3-animate-bottom">Hi, Im Ryan. I like computers.</h1>
-          <div class="w3-padding-32">
-            <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="location.href='dash/login.php'" style="font-weight:900;">LOGIN</button>
-          </div>
         </div>
       </header>
       <hr><br>
@@ -22,7 +19,7 @@
       <footer class="w3-container w3-theme-dark w3-padding-16">
         <p>
           <div class="w3-center">
-            <p> <a href='http://www.github.com/rbuxton1'> << Ryan Buxton 2017 >> </a></p> 
+            <p> <a href='http://www.github.com/rbuxton1'> << Ryan Buxton 2017 >> </a></p>
           </div>
         </p>
         <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right">
