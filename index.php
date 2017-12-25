@@ -19,13 +19,13 @@
       <!-- Body -->
       <div class='w3-container w3-margin'>
         <h1 class="w3-xlarge">ryan@ryan-desktop:~$ ryan -about </h1>
-        <p class='w3-large'>
+        <p class='w3-large w3-margin-left'>
           I'm a computer science student in Colorado. I am a highschool senior, and plan on going to college to further my carrer. I have been taught Java and Andriod Studio's "almost Java" in school and have self taught myself PHP, HTML, basic MySQL, basic C. I also know a lot of Ubuntu tricks lending to my work as our schools Cyber Patriot Ubuntu specialist. This site has been entirely developed on my own using all these skills I have learned. All the code for this site can be found <a href='http://www.github.com/rbuxton1/ryanbuxton-website'>here</a>.
         </p>
       </div>
       <div class='w3-container w3-margin'>
         <h1 class='w3-xlarge'>ryan@ryan-desktop:~$ ryan -status </h1>
-        <p class='w3-large'>
+        <p class='w3-large w3-margin-left'>
           As of right now I have several personal and nonpersonal projects I am working on. The largest of which is my computer science senior project with my good friend <a href='http://www.github.com/cheezosis/'>Curtis Worthy</a>. The aim is to provide a safe for work arts database that our schools photography department can use to store students work. The project is called Student Art Archive, or SAA for short. I additionally am working on Show Helper, a program I wrote for my mom to use in the model horse hobby to helpmake judging shows easier. I am currently working on expanding the project to provide a database backend for the users so that the entery process is much easier.
         </p>
       </div>
