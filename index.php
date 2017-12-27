@@ -11,8 +11,9 @@
       <!-- Header -->
       <header class="w3-display-container w3-content w3-wide" style="max-width:1500px" id="home">
         <img class="w3-image" src="https://1.bp.blogspot.com/-ZbY05reBEsk/Wc2K8GSQCkI/AAAAAAABCw0/fs-_yvh2c38W3wEFjRyUHHNFUwYjYAhigCLcBGAs/s1600/13.jpg" alt="ryan" style="width:100%">
-        <div class="w3-display-left w3-margin-top w3-center">
-          <h1 class="w3-xxlarge w3-text-black"><span class="w3-padding w3-black w3-opacity-min animate-type"><b>Hi, I'm Ryan. I like computers.</b></span></h1>
+        <div class="w3-display-topmiddle w3-margin-top w3-center">
+          <br><br><br><br><br>
+          <h1 class="w3-xxlarge w3-text-black"><b><span class="w3-left w3-padding w3-black w3-opacity-min typewrite" data-period="7000" data-type='[ "Hi, Im Ryan.", "I like computers.", "I make cool stuff with them."]'></span></b></h1>
         </div>
       </header>
       <hr>
@@ -46,4 +47,63 @@
         </div>
       </footer>
     </body>
+    <!-- Cool writing effect -->
+    <script>
+      var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+      };
+
+      TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+          this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+          this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+          delta = this.period;
+          this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+          this.isDeleting = false;
+          this.loopNum++;
+          delta = 500;
+        }
+
+        setTimeout(function() {
+          that.tick();
+        }, delta);
+      };
+
+      window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+          var toRotate = elements[i].getAttribute('data-type');
+          var period = elements[i].getAttribute('data-period');
+          if (toRotate) {
+            new TxtType(elements[i], JSON.parse(toRotate), period);
+          }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        document.body.appendChild(css);
+      };
+    </script>
   </html>
