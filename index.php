@@ -28,7 +28,7 @@
       <div class='w3-container w3-margin'>
         <h1 class='w3-xlarge'>ryan@ryan-desktop:~$ ryan -status </h1>
         <p class='w3-large w3-margin-left'>
-          I am currently working of several projects, the largest of which is my computer science senior project with my good friend, <a href='http://www.github.com/cheezosis/'>Curtis Worthy</a>. Our objective is to build a safe for work arts database for our school's photography department to store student work. The project is called Student Art Archive, or SAA for short. Additionally, I am working on Show Helper, which is a program I wrote for my mom to facilitate model horse show judging. I am currently working on expanding that project to include a database back end.
+          I am currently working on several projects, the largest of which is my computer science senior project with my good friend, <a href='http://www.github.com/cheezosis/'>Curtis Worthy</a>. Our objective is to build a safe for work arts database for our school's photography department to store student work. The project is called Student Art Archive, or SAA for short. Additionally, I am working on Show Helper, which is a program I wrote for my mom to facilitate model horse show judging. I am currently working on expanding that project to include a database back end.
         </p>
       </div>
 
