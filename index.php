@@ -22,7 +22,7 @@
       <div class='w3-container w3-margin'>
         <h1 class="w3-xlarge">ryan@ryan-desktop:~$ ryan -about </h1>
         <p class='w3-large w3-margin-left'>
-          I am a high school senior, with a focus on computer science. I plan to attend college in the fall. I have studied Java and Andriod Studio's "almost Java" in school, and have I have taught myself PHP, HTML, basic MySQL, basic C. I also know a lot of Ubuntu tricks and am my school's Cyber Patriot Ubuntu specialist. This site has been developed using these skills I have learned. All the code for this site can be found here.<a href='http://www.github.com/rbuxton1/ryanbuxton-website'>here</a>.
+          I am a high school senior, with a focus on computer science. I plan to attend college in the fall. I have studied Java and Andriod Studio's "almost Java" in school, and have I have taught myself PHP, HTML, basic MySQL, basic C. I also know a lot of Ubuntu tricks and am my school's Cyber Patriot Ubuntu specialist. This site has been developed using these skills I have learned. All the code for this site can be found <a href='http://www.github.com/rbuxton1/ryanbuxton-website'>here</a>.
         </p>
       </div>
       <div class='w3-container w3-margin'>
