@@ -31,6 +31,32 @@
           I am currently working on several projects, the largest of which is my computer science senior project with my good friend, <a href='http://www.github.com/cheezosis/'>Curtis Worthy</a>. Our objective is to build a safe for work arts database for our school's photography department to store student work. The project is called Student Art Archive, or SAA for short. Additionally, I am working on Show Helper, which is a program I wrote for my mom to facilitate model horse show judging. I am currently working on expanding that project to include a database back end.
         </p>
       </div>
+      <div class='w3-container w3-margin'>
+        <h1 class='w3-xlarge'>ryan@ryan-desktop:~$ ryan -projects </h1>
+        <p class='w3-large w3-margin-left'>
+          A list of all the projects Ive worked on would go as so:
+        </p>
+        <div class='w3-row w3-border'>
+          <div class="w3-third w3-container w3-red">
+            <h1 class="w3-xlarge">Show Helper</h1>
+            <p class="w3-large">
+              Show Helper was my first big programming <i>thing</i>. I call it that only because it was something that I cooked up for my mom to help her with judging a contest for a community she's part of. The project consisted mostly of <a href="https://play.google.com/store/apps/details?id=rbuxton.com.showhelper">an Android app</a> that connected to a Java server. Everyone that entered into the competition would be given a key for each of their entries that would be tied to the name of that item. The app would allow the judge to put in the keys for the winners of each event so that it could be sent to the server where it would be decoded and saved to a text file. This system helped the event go paperless and made a big splash in the community even ending up with magazine article. I have started some preliminary work on an online version so that the codes do not need to be human generated.
+            </p>
+          </div>
+          <div class="w3-third w3-container w3-red">
+            <h1 class="w3-xlarge">Student Art Archive (SAA)</h1>
+            <p class="w3-large">
+              <a href="http://www.github.com/rbuxton1/saa">Student Art Archive</a> (shortened to SAA) is a joint project with my friend <a href="http://www.github.com/cheezosis/">Curtis Worthy</a>, which also serves as our senior project for our schools computer science pathway. The project is an online database for art students to upload their work to. We took what I knew from working on the preliminary versions of online Show Helper and used that to create the basic outline of the project. From there we worked further on making it run smoother and on beautifying the whole thing. I also took some time to write the wiki as I installed a version on my home server for testing. At the time of writing, it is not entirely complete, but it is functional.
+            </p>
+          </div>
+          <div class="w3-third w3-container w3-red">
+            <h1 class="w3-xlarge">NaMoPaiMo Entry</h1>
+            <p class="w3-large">
+              <a href="http://www.github.com/rbuxton1/namopaimo-entry">NaMoPaiMo entry</a> is another project that I worked for my mom to create. By far one of the more simple things Ive done, its a basic registration page for a competition my mom runs. The user inputs some data about themselves and stuff that they plan to do, and it takes all that and puts it into a MySQL database. More info about what NaMoPaiMo is can be found <a href="http://braymere.blogspot.com/p/national-model-painting-month-namopaimo.html">here</a>. At the time of writing, there are ~225 entries and they come from ~19 different countries.
+            </p>
+          </div>
+        </div>
+      </div>
 
 
       <!-- Footer -->
