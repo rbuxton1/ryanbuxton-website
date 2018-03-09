@@ -73,4 +73,16 @@
         </div>
     </div>
   </body>
+  <footer class="w3-container w3-theme-dark w3-padding-16">
+    <p>
+      <div class="w3-center">
+        <p> <a href='http://www.github.com/rbuxton1'> << Ryan Buxton 2017 >> </a></p>
+      </div>
+    </p>
+    <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right">
+      <span class="w3-text w3-theme-light w3-padding">Go To Top</span> 
+      <a class="w3-text-white" href="#home"><span class="w3-xlarge">
+      <i class="fa fa-chevron-circle-up"></i></span></a>
+    </div>
+  </footer>
 </html>
