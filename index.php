@@ -15,6 +15,10 @@
           <br><br><br><br><br>
           <h1 class="w3-xxlarge w3-text-black"><b><span class="w3-left w3-padding w3-black w3-opacity-min typewrite" data-period="7000" data-type='[ "Hi, Im Ryan.", "I like computers.", "I make cool stuff with them."]'></span></b></h1>
         </div>
+        <div class="w3-display-bottomleft w3-margin-top w3-center">
+          <h1 class="w3-xxlarge w3-text-black"> I'M IN, TELL ME MORE <h1>
+          <br>
+        </div>
       </header>
       <hr>
 
