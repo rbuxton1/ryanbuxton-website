@@ -9,7 +9,7 @@
   <body>
 
       <!-- Header -->
-      <header class="w3-display-container w3-content w3-wide" style="max-width:1500px" id="home">
+      <header class="w3-display-container w3-content w3-wide" style="max-width:1920px" id="home">
         <img class="w3-image" src="https://1.bp.blogspot.com/-ZbY05reBEsk/Wc2K8GSQCkI/AAAAAAABCw0/fs-_yvh2c38W3wEFjRyUHHNFUwYjYAhigCLcBGAs/s1600/13.jpg" alt="ryan" style="width:100%">
         <div class="w3-display-topmiddle w3-margin-top w3-center">
           <br><br><br><br><br>
@@ -56,6 +56,12 @@
             </p>
           </div>
         </div>
+      </div>
+      <div class='w3-container w3-margin'>
+        <h1 class='w3-xlarge'>ryan@ryan-desktop:~$ ryan -contact </h1>
+        <p class='w3-large w3-margin-left'>
+           My email is rbuxton1@gmail.com, and that's where I would prefer to do any sort of business work. At the time of writing I am still a full time student, so I may not be available for big projects, but I'm always glad to hear a cool idea. I have a couple rules though, namely that unless the project is specifically non-profit and only serves to benefit a community, I will not work for free. SAA is an example of a project I have done for free because I want to give back to a community. If you're not sure if your project idea falls under this category, shoot me an email still! Just be aware I'm not about working for 'exposure'.
+        </p>
       </div>
 
 
