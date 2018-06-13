@@ -9,8 +9,8 @@
   <body>
 
       <!-- Header -->
-      <header class="w3-display-container w3-content w3-wide" style="width:100%" id="home">
-        <img class="w3-image" src="https://1.bp.blogspot.com/-ZbY05reBEsk/Wc2K8GSQCkI/AAAAAAABCw0/fs-_yvh2c38W3wEFjRyUHHNFUwYjYAhigCLcBGAs/s1600/13.jpg" alt="ryan" style="width:100%">
+      <header class="w3-display-container w3-content w3-wide" style="width:100%;" id="home">
+        <img class="w3-image" src="https://1.bp.blogspot.com/-ZbY05reBEsk/Wc2K8GSQCkI/AAAAAAABCw0/fs-_yvh2c38W3wEFjRyUHHNFUwYjYAhigCLcBGAs/s1600/13.jpg" alt="ryan" style="width:100%;">
         <div class="w3-display-topmiddle w3-margin-top w3-center">
           <br><br><br><br><br>
           <h1 class="w3-xxlarge w3-text-black"><b><span class="w3-left w3-padding w3-black w3-opacity-min typewrite" data-period="7000" data-type='[ "Hi, Im Ryan.", "I like computers.", "I make cool stuff with them."]'></span></b></h1>
