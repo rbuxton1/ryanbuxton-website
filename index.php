@@ -9,7 +9,7 @@
   <body>
 
       <!-- Header -->
-      <header class="w3-display-container w3-content w3-wide" style="max-width:1500px" id="home">
+      <header class="w3-display-container w3-content w3-wide" style="width:100%" id="home">
         <img class="w3-image" src="https://1.bp.blogspot.com/-ZbY05reBEsk/Wc2K8GSQCkI/AAAAAAABCw0/fs-_yvh2c38W3wEFjRyUHHNFUwYjYAhigCLcBGAs/s1600/13.jpg" alt="ryan" style="width:100%">
         <div class="w3-display-topmiddle w3-margin-top w3-center">
           <br><br><br><br><br>
@@ -22,7 +22,7 @@
       <div class='w3-container w3-margin'>
         <h1 class="w3-xlarge">ryan@ryan-desktop:~$ ryan -about </h1>
         <p class='w3-large w3-margin-left'>
-          I am a high school senior, with a focus on computer science. I plan to attend college in the fall. I have studied Java and Andriod Studio's "almost Java" in school, and have I have taught myself PHP, HTML, basic MySQL, basic C. I also know a lot of Ubuntu tricks and am my school's Cyber Patriot Ubuntu specialist. This site has been developed using these skills I have learned. All the code for this site can be found <a href='http://www.github.com/rbuxton1/ryanbuxton-website'>here</a>.
+          I am a college student at CU Denver studying computer science. So far I have studied Java and Andriod Studio's "almost Java" in school, and have I have taught myself PHP, HTML, basic MySQL, basic C. I will be learning lots of C++ in my college carrer. I also know a lot of Ubuntu tricks and am my high school's Cyber Patriot Ubuntu specialist. This site has been developed using these skills I have learned. All the code for this site can be found <a href='http://www.github.com/rbuxton1/ryanbuxton-website'>here</a>.
         </p>
       </div>
       <div class='w3-container w3-margin'>
@@ -46,13 +46,19 @@
           <div class="w3-third w3-container w3-green">
             <h1 class="w3-xxlarge">Student Art Archive (SAA)</h1>
             <p class="w3-large">
-              <a href="http://www.github.com/rbuxton1/saa">Student Art Archive</a> (shortened to SAA) is a joint project with my friend <a href="http://www.github.com/cheezosis/">Curtis Worthy</a>, which also serves as our senior project for our schools computer science pathway. The project is an online database for art students to upload their work to. We took what I knew from working on the preliminary versions of online Show Helper and used that to create the basic outline of the project. From there we worked further on making it run smoother and on beautifying the whole thing. I also took some time to write the wiki as I installed a version on my home server for testing. At the time of writing, it is not entirely complete, but it is functional.
+              <a href="http://www.github.com/rbuxton1/saa">Student Art Archive</a> (shortened to SAA) is a joint project with my friend <a href="http://www.github.com/cheezosis/">Curtis Worthy</a>, which also serves as our senior project for our schools computer science pathway. The project is an online database for art students to upload their work to. We took what I knew from working on the preliminary versions of online Show Helper and used that to create the basic outline of the project. From there we worked further on making it run smoother and on beautifying the whole thing. I also took some time to write the wiki as I installed a version on my home server for testing. At the time of writing it is about as complete as its gonna get without anyone taking any interest in it. Hopefully we will have it set up with out highschool so that a live version is available. Stay tuned!
             </p>
           </div>
           <div class="w3-third w3-container w3-blue">
             <h1 class="w3-xxlarge">NaMoPaiMo Entry</h1>
             <p class="w3-large">
               <a href="http://www.github.com/rbuxton1/namopaimo-entry">NaMoPaiMo entry</a> is another project that I worked for my mom to create. By far one of the more simple things Ive done, its a basic registration page for a competition my mom runs. The user inputs some data about themselves and stuff that they plan to do, and it takes all that and puts it into a MySQL database. More info about what NaMoPaiMo is can be found <a href="http://braymere.blogspot.com/p/national-model-painting-month-namopaimo.html">here</a>. At the time of writing, there are ~225 entries and they come from ~19 different countries. This project will be running until the end of January 2018, as thats when the registration closes. You can actually see the live page and maybe even enter yourself right <a href="http://ryanbuxton.com/namopaimo/">here</a>. Theres some cool prizes (especially if you're into little model horses)!
+            </p>
+          </div>
+          <div class="w3-third w3-container w3-blue-gray">
+            <h1 class="w3-xxlarge">Black Nova</h1>
+            <p class="w3-large">
+              <a href="http://www.github.com/rbuxton1/black-nova">Black Nova</a> is a video game I am wokring with another close friend, Joseph Ahn, to create. All the programming is done by yours truely and all the art is done by him. So far not much has been done with it, but we have huge dreams of what we want to happen in it. Look forward to it! It should be really cool, at least to us. Were including some random generated RPG elements into it and a system by which adding a new weapon is as easy as editing a text file to make it as accessable as possible.
             </p>
           </div>
         </div>
@@ -63,7 +69,7 @@
       <footer class="w3-container w3-theme-dark w3-padding-16">
         <p>
           <div class="w3-center">
-            <p> <a href='http://www.github.com/rbuxton1'> << Ryan Buxton 2017 >> </a></p>
+            <p> <a href='http://www.github.com/rbuxton1'> << Ryan Buxton 2018 >> </a></p>
           </div>
         </p>
         <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right">
